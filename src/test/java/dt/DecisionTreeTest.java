@@ -1,7 +1,10 @@
-/**
+package dt; /**
  *
  */
 
+import dt.BadDecisionException;
+import dt.DecisionTree;
+import dt.UnknownDecisionException;
 import org.junit.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -84,6 +87,6 @@ public class DecisionTreeTest {
 
 
   public static void main(String args[]) {
-    org.junit.runner.JUnitCore.main("DecisionTreeTest");
+    org.junit.runner.JUnitCore.main("dt.DecisionTreeTest");
   }
 }

@@ -3,3 +3,8 @@
 *~
 build/
 tags
+.idea
+java-decision-tree.iml
+.classpath
+.project
+target
